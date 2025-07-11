@@ -60,3 +60,40 @@ nav button{
   font-weight: bold;
   font-size: 16px;
 }
+/* main styles */
+/* action */
+.action{
+  height: 328px;
+  width: 1140px;
+  margin: 116px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.action .content{
+  height: 203px;
+  width: 517px;
+}
+.action .content h3{
+  margin-top: 62px;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+
+}
+.action .content p{
+  font-size: 24px;
+  color: #252432;
+}
+.action .content button{
+  background-color: #4E47FF;
+  color: white;
+  height: 48px;
+  width: 229px;
+  border: none;
+  border-radius: 10px;
+}
+.action img{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
