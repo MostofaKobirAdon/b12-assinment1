@@ -68,7 +68,9 @@ nav button{
   font-size: 16px;
 }
 /* main styles */
-
+main{
+  background-color: #eaeaf5;
+}
 
 /* action */
 .action{
@@ -256,3 +258,96 @@ nav button{
     margin-bottom: 70px;
     margin-left: 150px;
 }
+/* lets get in touch  */
+.info{
+  margin: 70px 150px;
+  display: flex;
+  height: 632px;
+  width: 1140px;
+  background-color:  rgb(232, 232, 244);
+  border-radius: 20px;
+}
+.info h1{
+  margin-top: 200px;
+  font-size: 97px;
+  font-weight: bold;
+}
+.info .form-container ::placeholder{
+  font-size: 20px;
+}
+.info .form-container form input{
+  border-radius: 10px;
+  height: 70px;
+  width: 497px;
+  background-color: #ffffff;
+  border: 2.5px solid rgb(218, 218, 219);
+}
+.info .form-container form textarea{
+  height: 135px;
+  width: 497px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2.5px solid rgb(218, 218, 219);
+}
+.info .form-container form label{
+  font-size: 18px;
+  font-weight: 500;
+}
+.info .form-container form button{
+  height: 62px;
+  width: 497px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.info .form-container form{
+  margin-top: 71px;
+}
+.info .form-container form div{
+  margin-top: 19px;
+}
+.info .form-container form div input{
+  margin-top: 10px;
+}
+.info .form-container form .textarea-container textarea{
+  margin-top: 10px;
+}
+.info .form-container form button{
+  margin-top: 10px;
+}
+/* footer styles */
+footer{
+  height: 428px;
+  width: 1440px;
+}
+footer h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 8px;
+  margin-left: 120px;
+}
+footer ul{
+  display: flex;
+}
+footer ul li{
+  list-style: none;
+  margin-right: 48px;
+}
+footer ul a{
+  text-decoration: none;
+  color: #8987A1;
+}
+footer p{
+  color: #8987A1;
+}
+.footer-container{
+  margin-left: 455px;
+  margin-top: 110px;
+  height: 221px;
+  width: 531px;
+}
+
