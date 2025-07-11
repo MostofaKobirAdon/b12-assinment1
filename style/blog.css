@@ -165,6 +165,10 @@ main{
     height: 210px;
     width: 366px;
 }
+
+.card-container:hover{
+  background-color: rgb(201, 184, 244);
+}
 .comment h2{
     margin: 50px 380px;
     font-size: 42px;
