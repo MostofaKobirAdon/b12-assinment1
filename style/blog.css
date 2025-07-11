@@ -128,3 +128,72 @@ nav button{
   font-size: 20px;
   color: #000000;
 }
+
+
+/* comment section */
+.card-container{
+    height: 243px;
+    width: 366px;
+    border-radius: 14px;
+    box-shadow: 2px 2px 20px 2px rgb(206, 221, 245);
+}
+.comment{
+    margin: 137px 150px;
+}
+.comment-container{
+    display: flex;
+    gap: 20px;
+}
+.card-container{
+    padding: 24px;
+    height: 210px;
+    width: 366px;
+}
+.comment h2{
+    margin: 50px 380px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.comment h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.comment p{
+    font-size: 15px;
+}
+.card-container{
+    
+}
+.card-container .commenter img{
+    height: 40px;
+    width: 40px;
+}
+
+.img-c-1{
+    border-radius: 20px;
+}
+.card-container .star-icon img{
+    height: 15px;
+    width: 15px;
+}
+.commenter{
+    display: flex;
+    align-items: center;
+}
+.commenter .commenter-n-d{
+    margin-top: 0px;
+    margin-left: 15px;
+    line-height: 0px;
+    
+}
+.commenter .commenter-n-d h5{
+    text-align: left;
+    width: 300px;
+}
+.commenter .commenter-n-d .name{
+    font-size: medium;
+    margin-bottom: 0;
+    
+}
+
+
