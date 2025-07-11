@@ -1,3 +1,10 @@
+/* shared styles */
+.button-s:hover{
+    cursor: pointer;
+    background:linear-gradient(  rgb(255, 234, 0),rgb(13, 223, 6),rgb(0, 217, 255));
+    
+}
+/* fonts */
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -61,6 +68,8 @@ nav button{
   font-size: 16px;
 }
 /* main styles */
+
+
 /* action */
 .action{
   height: 328px;
@@ -91,6 +100,11 @@ nav button{
   width: 229px;
   border: none;
   border-radius: 10px;
+  
+}
+.action .content button:hover{
+    cursor: pointer;
+    background-color: darkcyan;
 }
 .action img{
   height: 328px;
@@ -195,5 +209,50 @@ nav button{
     margin-bottom: 0;
     
 }
-
-
+/* get started section */
+.get-started{
+    border-radius: 10px;
+    background: linear-gradient(#DAE2F8,#8cbaec);
+    margin: 110px 150px;
+    height: 696.77px;
+    width: 1140px;
+    align-items: center;
+}
+.get-started .content{
+    margin-top: 71px;
+}
+.get-started .content h2{
+    line-height: 200px;
+    
+    font-size: 50px;
+    font-weight: bold;
+}
+.get-started .content p{
+    margin-top: -80px;
+    color: #434242;
+    font-size: 18px;
+}
+.get-started .content button{
+  background-color: #4E47FF;  
+  color: white;
+  height: 48px;
+  width: 195px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.get-started img{
+    justify-content: center;
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+}
+.get-started .content{
+    text-align: center;
+}
+.img{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+}
